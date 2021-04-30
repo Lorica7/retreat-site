@@ -86,14 +86,110 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* GENERAL HEADER */
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.logo {
+  min-width: 75%;
+}
+.main-nav {
+  display: flex;
+  justify-content: center;
+}
+.main-nav-group {
+  display: flex;
+  justify-content: center;
+}
+
+*/
+/* Main Page */
+
 .hero {
   background: url(../img/jake-melara.jpg), center, no-repeat;
   min-height: 300px;
 }
+/* Aside and form area*/
+aside {
+}
+
+.form {
+}
+/* End form styles */
+
+/* Features Styles */
 
 .features {
   background: url(../img/rawpixel.jpg), center, no-repeat;
   color: white;
+}
+.features h3 {
+  text-align: center;
+}
+.content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.features-item {
+  display: flex;
+  background-color: blueviolet;
+  margin: 10px;
+  padding: px;
+}
+
+.fa-icon {
+}
+
+.item-description {
+}
+
+.reviews {
+}
+
+/* FOOTER STYLES */
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+}
+.social {
+}
+.social-icons {
+}
+
+/* TABLET */
+
+@media (max-width: 769px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    justify-content: center;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (min-width: 768px) {
+    .features-item {
+      width: 40%;
+      /* justify-content: center; */
+    }
+  }
 }
 
 /* ==========================================================================
