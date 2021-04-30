@@ -144,7 +144,6 @@ aside {
   display: flex;
   background-color: blueviolet;
   margin: 10px;
-  padding: px;
 }
 
 .fa-icon {
@@ -158,6 +157,15 @@ aside {
 
 #review-image {
   max-width: 100%;
+}
+
+/* FAQ PAGE */
+
+.faq-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /* FOOTER STYLES */
@@ -214,6 +222,9 @@ aside {
 
   .footer-content {
     flex-flow: row nowrap;
+  }
+  .faq-item {
+    max-width: 40%;
   }
 }
 
