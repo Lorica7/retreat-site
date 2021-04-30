@@ -93,8 +93,10 @@ header {
   flex-flow: row wrap;
   align-items: center;
 }
-.logo {
-  min-width: 75%;
+
+#logo-image {
+  min-width: 50%;
+  max-width: 90%;
 }
 .main-nav {
   display: flex;
@@ -102,10 +104,12 @@ header {
 }
 .main-nav-group {
   display: flex;
-  justify-content: center;
+}
+.main-nav-item {
+  display: flex;
+  margin: 15px;
 }
 
-*/
 /* Main Page */
 
 .hero {
@@ -168,8 +172,8 @@ aside {
 
 /* TABLET */
 
-@media (max-width: 769px) {
-  .header {
+@media (max-width: 768px) {
+  header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -178,17 +182,21 @@ aside {
   .main-nav {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   .logo {
     display: flex;
     justify-content: center;
   }
+}
+@media (min-width: 768px) {
+  .features-item {
+    width: 40%;
+    /* justify-content: center; */
+  }
 
-  @media (min-width: 768px) {
-    .features-item {
-      width: 40%;
-      /* justify-content: center; */
-    }
+  .logo {
+    min-width: 75%;
   }
 }
 
