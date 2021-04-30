@@ -156,16 +156,29 @@ aside {
 .reviews {
 }
 
+#review-image {
+  max-width: 100%;
+}
+
 /* FOOTER STYLES */
 
 .footer-content {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
 }
 .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 80%;
 }
 .social {
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  min-width: 80%;
 }
 .social-icons {
 }
@@ -197,6 +210,10 @@ aside {
 
   .logo {
     min-width: 75%;
+  }
+
+  .footer-content {
+    flex-flow: row nowrap;
   }
 }
 
