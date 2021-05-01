@@ -92,18 +92,29 @@ header {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
+  color: white;
+  background-color: #202322;
 }
 
 #logo-image {
-  min-width: 50%;
-  max-width: 90%;
+  min-width: 30%;
+  max-width: 80%;
+}
+
+a {
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 .main-nav {
   display: flex;
   justify-content: center;
+  color: white;
 }
 .main-nav-group {
   display: flex;
+  justify-content: space-around;
+  padding-inline-start: 0%;
 }
 .main-nav-item {
   display: flex;
@@ -143,7 +154,8 @@ aside {
 .features-item {
   display: flex;
   background-color: blueviolet;
-  margin: 10px;
+  width: 160px;
+  margin: 20px;
 }
 
 .fa-icon {
@@ -153,6 +165,8 @@ aside {
 }
 
 .reviews {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 #review-image {
@@ -212,8 +226,8 @@ aside {
 }
 @media (min-width: 768px) {
   .features-item {
-    width: 40%;
-    /* justify-content: center; */
+    /* width: 16.66%;
+    justify-content: center; */
   }
 
   .logo {
@@ -228,6 +242,12 @@ aside {
   }
 }
 
+@media (min-width: 1100px) {
+  .features-item {
+    width: 16.66%;
+    justify-content: center;
+  }
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
