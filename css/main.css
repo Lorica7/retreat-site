@@ -118,7 +118,7 @@ a {
 }
 .main-nav-item {
   display: flex;
-  margin: 15px;
+  margin: 50px;
 }
 
 /* Main Page */
@@ -155,7 +155,7 @@ aside {
   display: flex;
   background-color: blueviolet;
   width: 160px;
-  margin: 20px;
+  margin: 50px;
 }
 
 .fa-icon {
@@ -167,10 +167,21 @@ aside {
 .reviews {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+  align-content: flex-start;
 }
+
+/* .content-wrapper h3 {
+  justify-content: center;
+} */
 
 #review-image {
   max-width: 100%;
+}
+
+.review-text {
+  margin: 15px;
+  align-self: flex-start;
 }
 
 /* FAQ PAGE */
@@ -194,18 +205,22 @@ aside {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  min-width: 80%;
+  /* min-width: 80%; */
 }
 .social {
   flex-direction: column;
   display: flex;
   align-items: flex-start;
-  min-width: 80%;
+  /* min-width: 80%; */
 }
 .social-icons {
 }
 
-/* TABLET */
+.copyright {
+  text-align: center;
+}
+
+/* TABLET  and smaller */
 
 @media (max-width: 768px) {
   header {
@@ -224,6 +239,9 @@ aside {
     justify-content: center;
   }
 }
+
+/* Tablet Size and Larger */
+
 @media (min-width: 768px) {
   .features-item {
     /* width: 16.66%;
@@ -240,8 +258,21 @@ aside {
   .faq-item {
     max-width: 40%;
   }
-}
 
+  #review-image {
+    max-width: 35%;
+  }
+
+  .review-text {
+    max-width: 35%;
+  }
+
+  .content-wrapper h3 {
+    width: 100%;
+    text-align: center;
+  }
+}
+/* Desktop only */
 @media (min-width: 1100px) {
   .features-item {
     width: 16.66%;
