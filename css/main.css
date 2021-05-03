@@ -86,7 +86,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* GENERAL HEADER */
+
+/*****************************GENERAL HEADER ****************************/
 
 header {
   display: flex;
@@ -121,7 +122,7 @@ a {
   margin: 50px;
 }
 
-/* Main Page */
+/* ***********************Main Page *************************/
 
 .hero {
   background: url(../img/jake-melara.jpg), center, no-repeat;
@@ -135,7 +136,7 @@ aside {
 }
 /* End form styles */
 
-/* Features Styles */
+/* ************************Features Styles *********************/
 
 .features {
   background: url(../img/rawpixel.jpg), center, no-repeat;
@@ -154,7 +155,7 @@ aside {
 .features-item {
   display: flex;
   background-color: blueviolet;
-  width: 160px;
+
   margin: 50px;
 }
 
@@ -171,10 +172,6 @@ aside {
   align-content: flex-start;
 }
 
-/* .content-wrapper h3 {
-  justify-content: center;
-} */
-
 #review-image {
   max-width: 100%;
 }
@@ -184,7 +181,7 @@ aside {
   align-self: flex-start;
 }
 
-/* FAQ PAGE */
+/* ************************************FAQ PAGE ******************************************************/
 
 .faq-item {
   display: flex;
@@ -193,11 +190,27 @@ aside {
   flex-flow: row wrap;
 }
 
-/* FOOTER STYLES */
+/********************************************** ABOUT**************************************************/
+
+.contact-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.contact-section h1 {
+  text-align: center;
+  display: flex;
+}
+.content-col {
+  display: flex;
+}
+
+/*****************************************FOOTER STYLES *******************************************/
 
 .footer-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-start;
   flex-flow: row wrap;
 }
@@ -205,19 +218,26 @@ aside {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* min-width: 80%; */
+  justify-content: space-around;
+  min-width: 200px;
+  text-align: center;
 }
+
 .social {
   flex-direction: column;
   display: flex;
   align-items: flex-start;
-  /* min-width: 80%; */
+  min-width: 200px;
+  justify-content: space-around;
+  text-align: center;
 }
+
 .social-icons {
 }
 
 .copyright {
   text-align: center;
+  padding: 20px;
 }
 
 /* TABLET  and smaller */
@@ -244,17 +264,13 @@ aside {
 
 @media (min-width: 768px) {
   .features-item {
-    /* width: 16.66%;
-    justify-content: center; */
+    width: 25%;
   }
 
   .logo {
     min-width: 75%;
   }
 
-  .footer-content {
-    flex-flow: row nowrap;
-  }
   .faq-item {
     max-width: 40%;
   }
@@ -270,6 +286,11 @@ aside {
   .content-wrapper h3 {
     width: 100%;
     text-align: center;
+  }
+
+  .contact-section h1 {
+    display: flex;
+    min-width: 100%;
   }
 }
 /* Desktop only */
