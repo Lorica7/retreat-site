@@ -150,6 +150,7 @@ aside {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  align-items: flex-start;
 }
 .sign-up {
   margin-top: 0;
@@ -160,7 +161,7 @@ form {
   display: flex;
   flex-direction: column;
   width: 320px;
-  margin: 0;
+  margin: 30px;
   padding: 0 20px 50px;
 }
 
@@ -222,6 +223,7 @@ button {
 
 #review-image {
   max-width: 100%;
+  margin: 40px 40px 60px;
 }
 
 .review-text {
@@ -272,7 +274,7 @@ button {
 }
 
 .mission-content p {
-  margin: 20px;
+  margin: 20px 20px 50px 20px;
 }
 
 #our-mission {
@@ -370,27 +372,41 @@ address {
   }
 }
 
-/* Tablet Size and Larger */
+/* ``````````````````````````````````````````````Tablet Size and Larger `````````````````````````````````````*/
 
 @media (min-width: 768px) {
-  .features-item {
-    width: 25%;
-  }
-
   .logo {
     min-width: 75%;
   }
 
-  .faq-item {
-    max-width: 40%;
-    justify-content: center;
+  /*//////////////////////////////////HOME///////////////////////////////////////////*/
+  .hero h1 {
+    margin-left: 8%;
   }
-  .faq-group {
-    justify-content: flex-start;
+
+  .sign-up {
+    margin-left: 15%;
+    width: 25%;
+  }
+
+  .form1 {
+    width: 25%;
+    margin-right: 15%;
+  }
+
+  .features h3 {
+    text-align: left;
+  }
+
+  .features-item {
+    width: 25%;
+  }
+  .review-wrapper {
+    align-items: flex-start;
   }
 
   .review-wrapper h3 {
-    width: 90%;
+    width: 80%;
   }
 
   #review-image {
@@ -401,6 +417,37 @@ address {
     max-width: 35%;
   }
 
+  /*//////////////////////////////////   FAQ     ///////////////////////////////////////////*/
+  .faq-item {
+    max-width: 40%;
+    justify-content: center;
+  }
+  .faq-group {
+    justify-content: flex-start;
+  }
+
+  /*//////////////////////////////////    ABOUT    ///////////////////////////////////////////*/
+  .mission-content {
+    justify-content: space-around;
+  }
+
+  #our-mission {
+    min-width: 90%;
+  }
+
+  .mission-content p {
+    width: 33%;
+  }
+  .contact-col {
+    width: 25%;
+  }
+  .social {
+    width: 25%;
+  }
+  .contact {
+    width: 25%;
+  }
+  /*//////////////////////////////////    Footer   ///////////////////////////////////////////*/
   .content-wrapper h3 {
     width: 100%;
     text-align: center;
@@ -413,14 +460,6 @@ address {
   .contact-section {
     justify-content: space-around;
   }
-  .mission-content {
-    justify-content: space-around;
-  }
-
-  .mission-content p {
-    width: 40%;
-  }
-
   .footer-content {
     justify-content: space-around;
   }
@@ -429,6 +468,19 @@ address {
 @media (min-width: 1100px) {
   .features-item {
     justify-content: center;
+  }
+
+  .hero h1 {
+    margin-left: 8%;
+  }
+  .sign-up {
+    margin-left: 8%;
+    width: 33%;
+  }
+
+  .form1 {
+    width: 33%;
+    margin-right: 8%;
   }
 }
 /* ==========================================================================
