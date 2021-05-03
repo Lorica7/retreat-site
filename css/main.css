@@ -233,9 +233,12 @@ button {
 
 .faq-item {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-flow: row wrap;
+}
+.faq-item p {
+  margin: 5px 20px 20px 20px;
 }
 
 .faq-group {
@@ -243,10 +246,16 @@ button {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .faq-group h1 {
   width: 90%;
+  padding: 10px;
+  margin: 20px 10px;
+}
+
+.faq-item h4 {
+  margin: 20px 20px 5px 20px;
 }
 
 /********************************************** ABOUT**************************************************/
@@ -349,6 +358,10 @@ address {
 
   .faq-item {
     max-width: 40%;
+    justify-content: center;
+  }
+  .faq-group {
+    justify-content: flex-start;
   }
 
   .review-wrapper h3 {
