@@ -259,17 +259,42 @@ button {
 }
 
 /********************************************** ABOUT**************************************************/
-
-.contact-section {
+.mission {
+  background-color: #527158;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
+}
+.mission-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.mission-content p {
+  margin: 20px;
+}
+
+#our-mission {
+  padding-bottom: 10px;
+}
+
+.contact-section {
+  background-color: #2a423a;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
 }
 
 .contact-section h1 {
-  text-align: center;
   display: flex;
+  padding-bottom: 15px;
 }
+
+.contact-col {
+  margin: 10px 20px;
+}
+
 .content-col {
   display: flex;
 }
@@ -383,7 +408,17 @@ address {
 
   .contact-section h1 {
     display: flex;
-    min-width: 100%;
+    min-width: 90%;
+  }
+  .contact-section {
+    justify-content: space-around;
+  }
+  .mission-content {
+    justify-content: space-around;
+  }
+
+  .mission-content p {
+    width: 40%;
   }
 
   .footer-content {
