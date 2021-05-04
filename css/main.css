@@ -105,7 +105,7 @@ h1 {
   font-size: 2.5em;
 }
 h3 {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 h5 {
@@ -122,6 +122,13 @@ a {
   color: #e2e3ed;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+figure {
+  margin: 0;
 }
 address {
   font-style: normal;
@@ -172,8 +179,13 @@ a {
 /* ***********************Main Page *************************/
 
 .hero {
-  background: url(../img/jake-melara.jpg), center, no-repeat;
-  min-height: 300px;
+  background: url(../img/jake-melara.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 /* Aside and form area*/
 aside {
@@ -201,12 +213,20 @@ label {
 }
 input {
   margin: 10px 0;
+  font-style: italic;
+  color: #2a423a;
 }
 button {
   margin: 10px 0;
   color: white;
   background-color: #2a423a;
   line-height: 2em;
+  text-transform: uppercase;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #e2e3ed;
+  font-size: 1.125em;
+  text-align: center;
 }
 /* End form styles */
 
@@ -222,7 +242,7 @@ button {
 .content-wrapper {
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 
@@ -415,14 +435,18 @@ address {
     margin-left: 8%;
   }
 
+  .sign-up h3 {
+    margin-top: 0;
+  }
+
   .sign-up {
-    margin-left: 15%;
-    width: 25%;
+    margin-left: 8%;
+    width: 32%;
   }
 
   .form1 {
-    width: 25%;
-    margin-right: 15%;
+    width: 32%;
+    margin-right: 8%;
   }
 
   .features h3 {
