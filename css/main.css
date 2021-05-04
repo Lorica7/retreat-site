@@ -150,8 +150,8 @@ header {
 }
 
 #logo-image {
-  min-width: 30%;
-  max-width: 80%;
+  /* min-width: 30%;
+  max-width: 80%; */
 }
 
 a {
@@ -233,7 +233,13 @@ button {
 /* ************************Features Styles *********************/
 
 .features {
-  background: url(../img/rawpixel.jpg), center, no-repeat;
+  background: url(../img/rawpixel.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
   color: white;
 }
 .features h3 {
