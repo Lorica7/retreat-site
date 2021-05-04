@@ -87,13 +87,44 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ~~~~~~~~~~~~~~~~~~~Global Styles~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+html {
+  font-size: 16px;
+}
+
 body {
   color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
 }
 
 h1 {
   margin: 0;
   padding: 60px 20px;
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+h1,
+h3,
+h5 {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+address {
+  font-style: normal;
 }
 
 .features h3 {
@@ -480,8 +511,20 @@ address {
     justify-content: space-around;
   }
 }
-/* Desktop only */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Desktop only ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 @media screen and (min-width: 1100px) {
+  h1 {
+    font-size: 3.5em;
+  }
+
+  h3 {
+    font-size: 2.75em;
+  }
+
+  h5 {
+    font-size: 2em;
+  }
+
   .features-item {
     justify-content: center;
   }
@@ -511,8 +554,16 @@ address {
     margin-right: 12%;
   }
   .review-wrapper h3 {
-    margin-left: 7%;
+    margin-left: 50px;
   }
+
+  #review-image {
+    margin-left: 140px;
+  }
+  .review-text {
+    max-width: 45%;
+  }
+
   .faq-item {
     margin-right: 0px;
     max-width: 450px;
