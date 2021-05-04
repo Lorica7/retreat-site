@@ -500,6 +500,13 @@ address {
   .review-wrapper h3 {
     margin-left: 7%;
   }
+  .faq-item {
+    margin-right: 0px;
+    max-width: 450px;
+  }
+  .faq-group {
+    padding: 80px 10%;
+  }
 }
 /* ==========================================================================
    Helper classes
