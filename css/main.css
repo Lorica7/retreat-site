@@ -422,9 +422,11 @@ address {
   .faq-item {
     max-width: 40%;
     justify-content: center;
+    margin-right: 20px;
   }
   .faq-group {
-    justify-content: flex-start;
+    justify-content: space-between;
+    padding: 80px 8%;
   }
 
   /*//////////////////////////////////    ABOUT    ///////////////////////////////////////////*/
