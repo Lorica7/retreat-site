@@ -438,10 +438,14 @@ address {
 
   #our-mission {
     min-width: 90%;
+    margin: 0;
+    padding: 0;
   }
-
+  .mission {
+    padding: 80px 60px;
+  }
   .mission-content p {
-    width: 33%;
+    width: 38%;
   }
   .contact-col {
     width: 25%;
@@ -449,8 +453,15 @@ address {
   .social {
     width: 25%;
   }
-  .contact {
-    width: 25%;
+  .contact-section {
+    padding: 80px 60px;
+  }
+  .contact-section h1 {
+    margin: 0;
+    padding: 0;
+  }
+  .contact-col {
+    width: 35%;
   }
   /*//////////////////////////////////    Footer   ///////////////////////////////////////////*/
   .content-wrapper h3 {
