@@ -152,7 +152,8 @@ header {
 
 #logo-image {
   min-width: 30%;
-  max-width: 80%;
+  max-width: 65%;
+  margin-top: 30px;
 }
 
 a {
@@ -503,7 +504,7 @@ address {
 
 @media screen and (min-width: 768px) {
   .logo {
-    min-width: 75%;
+    min-width: 60%;
   }
 
   /*//////////////////////////////////HOME///////////////////////////////////////////*/
@@ -614,6 +615,26 @@ address {
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Desktop only ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 @media screen and (min-width: 1100px) {
+  .logo a {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .logo img {
+    display: flex;
+    justify-items: flex-start;
+    margin-left: 15%;
+  }
+
+  #logo-image {
+    margin-bottom: 30px;
+    max-width: 35%;
+  }
+
+  .main-nav-group {
+    margin-left: 200px;
+  }
+
   h1 {
     font-size: 3em;
   }
