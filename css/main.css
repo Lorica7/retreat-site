@@ -596,6 +596,14 @@ address {
   .mission-content p {
     width: 38%;
   }
+
+  .map-container figure {
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+  }
+
   .contact-col {
     width: 25%;
   }
