@@ -243,6 +243,7 @@ button {
   justify-content: center;
   flex-flow: row wrap;
   color: white;
+  padding-bottom: 40px;
 }
 .features h3 {
   text-align: center;
@@ -255,7 +256,10 @@ button {
 }
 
 .features-item {
-  margin: 50px;
+  margin: 30px;
+}
+.item-description {
+  text-align: center;
 }
 
 .fa-icon {
@@ -263,6 +267,7 @@ button {
   font-size: 3.75em;
   margin-bottom: 10px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .review-wrapper {
@@ -548,7 +553,7 @@ address {
   }
 
   .features-item {
-    width: 25%;
+    width: 30%;
   }
   .review-wrapper {
     align-items: flex-start;
@@ -672,7 +677,8 @@ address {
   }
 
   .features-item {
-    justify-content: center;
+    justify-content: space-between;
+    width: 25%;
   }
 
   .hero h1 {
@@ -692,10 +698,10 @@ address {
     margin-left: 12%;
     padding-left: 20px;
   }
-  .features-item {
-    width: 16.66%;
-  }
+
   .content-wrapper {
+    display: flex;
+    justify-content: space-between;
     margin-left: 12%;
     margin-right: 12%;
   }
