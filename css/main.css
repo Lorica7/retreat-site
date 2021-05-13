@@ -408,7 +408,7 @@ button {
 .social {
   flex-direction: column;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   min-width: 200px;
   justify-content: center;
   text-align: center;
@@ -430,16 +430,17 @@ address {
 .social-icons {
   display: flex;
   justify-content: center;
-  text-align: center;
 }
 
 .social-icons p {
   display: flex;
   justify-content: center;
-  text-align: center;
 }
 
 .social-icons svg {
+  padding: 20px;
+  background-color: #2a423a;
+  border-radius: 50%;
   margin: 20px;
 }
 
