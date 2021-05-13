@@ -286,11 +286,11 @@ button {
 
 #review-image {
   max-width: 100%;
-  margin: 40px 40px 60px;
+  margin: 20px;
 }
 
 .review-text {
-  margin: 15px;
+  margin: 15px 15px 30px;
   align-self: flex-start;
 }
 
@@ -545,6 +545,7 @@ address {
 
   #review-image {
     max-width: 35%;
+    margin: 40px;
   }
 
   .review-text {
@@ -652,7 +653,7 @@ address {
   }
 
   .hero h1 {
-    margin-left: 10%;
+    margin-left: 0;
   }
 
   .sign-up {
