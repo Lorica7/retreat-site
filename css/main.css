@@ -255,16 +255,16 @@ button {
 }
 
 .features-item {
-  display: flex;
-  background-color: blueviolet;
   margin: 50px;
 }
 
 .fa-icon {
+  display: block;
+  font-size: 3.75em;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-.item-description {
-}
 .review-wrapper {
   background-color: #2a423a;
   display: flex;
