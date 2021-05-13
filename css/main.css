@@ -428,6 +428,19 @@ address {
   margin: 15px auto;
 }
 .social-icons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.social-icons p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.social-icons svg {
+  margin: 20px;
 }
 
 .copyright {
@@ -557,6 +570,8 @@ address {
   }
   .review-wrapper {
     align-items: flex-start;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .review-wrapper h3 {
